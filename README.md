@@ -1,6 +1,8 @@
 # Better error pages
 
-This deployment is based on: [tiringpi-errors](https://gitlab.com/vstrycek/turingpi-error-pages) which is in turn based on [error-pages container](https://github.com/tarampampam/error-pages)
+This deployment is based on: [tiringpi-errors](https://gitlab.com/vstrycek/turingpi-error-pages) which is in turn based on [error-pages container](https://github.com/tarampampam/error-pages).
+
+I'm using it as a hello world for argocd deployments.
 
 ## What it does
 It uses priority in Traefik to display a nice error page in case it's not handled by the targeted app. It can also be added into any service ingress if that service does not handle 404, 500, etc. errors in a nice way.
